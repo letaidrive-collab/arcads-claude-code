@@ -24,4 +24,5 @@ If `.env` or `MASTER_CONTEXT.md` do not exist, tell the user to run `./scripts/s
 - **Skills:**
   - `arcads-external-api` — main API reference (endpoints, auth, polling, asset routing).
   - `generate-youtube-thumbnail` — YouTube thumbnail batch workflow on top of the Nano Banana 2 image endpoint.
+  - `local-service-ad-creative` — ad creative for local-service offers with guardrails (no generated testimonials, language rules, credit estimate first).
 - **Setup check:** `./scripts/check-arcads-env.sh`.
